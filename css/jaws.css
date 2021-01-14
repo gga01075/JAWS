@@ -50,7 +50,7 @@ position:absolute;top:80px;left:0px;}
 
 #main_slide .slider_item2{background:url(../images/slide_background2.jpg) center center/ cover;position:relative;}
 #main_slide .slider_item2 dl{}
-#main_slide .slider_item2 dl dt{text-indent:-9999px;width:560px;height:110px;background:url('../images/jaws_rice_cake.png') no-repeat center center / cover;position:absolute;top:290px;right:370px;}
+#main_slide .slider_item2 dl dt{text-indent:-9999px;width:560px;height:110px;background:url('../images/jaws_rice_cake.PNG') no-repeat center center / cover;position:absolute;top:290px;right:370px;}
 #main_slide .slider_item2 dl dd:first-of-type{position:absolute;top:190px;right:700px;font-size:50px;}
 #main_slide .slider_item2 dl dd:last-of-type{position:absolute;top:440px;right:570px;font-size:24px;font-weight:100;}
 /* 메인슬라이드 - 슬라이드2이미지 */
