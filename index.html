@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>죠스떡볶이</title>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/jaws.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <script src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/jaws.js"></script>
+  <script src="slick/slick.min.js"></script>
+</head>
+
+<body>
+  <div id="openstoreWrap">
+    <section id="openstore">
+      <h2 class="hidden">store</h2>
+      <h3 class="hidden">신규오픈매장 및 오픈예정매장</h3>
+      <img src="images/popup_img.png" alt="팝업이미지">
+      <dl class="new_open">
+        <dt>신규 오픈 매장</dt>
+        <dd class="storeLine">잠실새내역점</dd>
+        <dd class="storeLine">마곡나루점</dd>
+        <dd class="storeLine">울산송정점</dd>
+        <dd>인천용현점</dd>
+      </dl>
+      <dl class="open_schedule">
+        <dt>오픈 예정 매장</dt>
+        <dd class="storeLine">경북도청점</dd>
+        <dd>일산백마점</dd>
+        <dd>반포지하상가2호점</dd>
+      </dl>
+
+      <a href="#" class="popup_close">닫기</a>
+      <dl class="question">
+        <dt>창업<br>문의</dt>
+        <dd>1688</dd>
+        <dd>2868</dd>
+      </dl>
+      <span>20년 7월 기준</span>
+    </section>
+  </div>
+  <!-- 신규오픈매장 -->
+
+  <div id="headerWrap">
+    <header id="header">
+      <h1><a href="index.html">죠스떡볶이</a></h1>
+      <nav id="gnb">
+        <h2 class="hidden">죠스떡볶이 사이트이용메뉴</h2>
+        <ul>
+          <li><a href="#">brand</a>
+            <ul class="snb">
+              <li><a href="representative.html">대표인사말</a></li>
+              <li><a href="#">죠스이야기</a></li>
+              <li><a href="employment.html">채용정보</a></li>
+            </ul>
+          </li>
+          <li><a href="#">menu</a>
+            <ul class="snb">
+              <li><a href="#">메인메뉴</a></li>
+              <li><a href="#">세트메뉴</a></li>
+              <li><a href="#">사이드메뉴</a></li>
+            </ul>
+          </li>
+          <li><a href="#">store</a>
+            <ul class="snb">
+              <li><a href="#">매장찾기</a></li>
+              <li><a href="#">매장안내</a></li>
+            </ul>
+          </li>
+          <li><a href="#">community</a>
+            <ul class="snb">
+              <li><a href="#">커뮤니티</a></li>
+              <li><a href="#">고객의소리</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" id="franchise">프랜차이즈</a>
+      <div class="snb_background"></div>
+      <div id="aboutGnb">
+        <dl data-menu="brand">
+          <dt>brand</dt>
+          <dd>죠스는 언제나 즐겁습니다.</dd>
+        </dl>
+        <dl data-menu="menu">
+          <dt>menu</dt>
+          <dd>죠스의 메뉴입니다.</dd>
+        </dl>
+        <dl data-menu="store">
+          <dt>store</dt>
+          <dd>죠스의 매장입니다.</dd>
+        </dl>
+        <dl data-menu="community">
+          <dt>community</dt>
+          <dd>죠스의 커뮤니티입니다.</dd>
+        </dl>
+      </div>
+    </header>
+  </div>
+  <!-- 헤더 -->
+  <section id="main_menu">
+    <h2 class="hidden">menu</h2>
+    <h3 class="hidden">main menu</h3>
+    <div id="main_slide">
+      <!-- 각 슬라이드 내용 빠짐없이 모두 기입 -->
+      <div class="slick-wrap">
+        <div class="slider_item slider_item1">
+          <dl>
+            <dt>순한맛도 매운맛도 <br> <span>국물떡볶이</span></dt>
+            <dd>new</dd>
+            <dd>더 맛있는 두가지 맛의 국물과 탱글한 밀떡 <br> 쫄깃한 당면과 바삭한 납작만두의 조화!</dd>
+          </dl>
+        </div>
+        <div class="slider_item slider_item2">
+          <dl>
+            <dt>죠스떡볶이</dt>
+            <dd>즐겁게 매운 맛!</dd>
+            <dd>즐겁게 매운 소스에 한입에 쏙! 3.5cm떡, <br> 납작만두와 튀김어묵,메추리알이 함께 어우러집니다. </dd>
+          </dl>
+        </div>
+      </div>
+      <!-- 리스트제거하고  button 태그로 마크업하고, 기호 대신에 다음 이전 텍스트로 대체 -->
+      <div class="arrows_wrap">
+        <div class="dots_wrap"></div>
+      </div>
+    </div>
+  </section>
+  <!-- 메인메뉴 -->
+
+  <!-- slideWrap -->
+  <div id="storeWrap">
+    <section id="store">
+      <h2 class="hidden">store</h2>
+      <section id="new_store">
+        <h3>New Store</h3>
+        <p><span>죠스떡볶이</span><br>새 매장을<br> 소개합니다.</p>
+        <a href="#">죠스떡볶이 새 매장만나기<span> &gt;</span></a>
+      </section>
+      <section id="store_search">
+        <h3>Store Search</h3>
+        <p>죠스떡볶이<br> 매장,<br>어디있죠!?</p>
+        <input type="text" id="storeSearch" placeholder="가까운 지역명을 검색하세요">
+        <button id="btn_search">매장 검색</button>
+      </section>
+    </section>
+  </div>
+  <!-- 매장소개 -->
+
+  <div id="allMenuWrap">
+    <section id="all_menu">
+      <h2>jaws menu</h2>
+      <p><span>오늘 죠스에서</span><br>뭘 먹을까?</p>
+      <a href="#">죠스떡볶이 전체메뉴 보기<span> &gt;</span></a>
+    </section>
+  </div>
+  <!-- 메뉴 -->
+
+  <div id="mobileWrap">
+    <a href="#">
+      <section id="mobile">
+        <h2>jaws mobile coupon</h2>
+        <p><span class="mobile_txt1">배달도 되고,</span><br><span class="mobile_txt2">선물도 됩니다.</span><br><span
+            class="mobile_txt3">죠스떡볶이.</span></p>
+        <img src="./images/img_mobile.png" alt="죠스 쿠폰">
+      </section>
+    </a>
+  </div>
+  <!-- 모바일 -->
+
+  <div id="communityWrap">
+    <section id="community">
+      <h2>jaws community</h2>
+      <p>죠스는 항상 <span>즐겁습니다.</span></p>
+      <div id="commu_btn">
+        <button class="commu_left_btn"> &lt; </button>
+        <button class="commu_right_btn"> &gt; </button>
+      </div>
+      <div id="commu_list">
+        <ul>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>#죠스떡볶이도 우리민족이었어</figcaption>
+                <img src="images/community2.jpg" alt="#죠스떡볶이도 우리민족이었어">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>피크닉에도 #죠습니다</figcaption>
+                <img src="images/community3.jpg" alt="피크닉에도 #죠습니다">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>죠스떡볶이 먹고 에어팟 받을 수 있는 #틱톡챌린지</figcaption>
+                <img src="images/community4.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>한정판매!#짜장라면 출시!</figcaption>
+                <img src="images/community5.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>순한맛 매운맛 골라먹는 #국물떡볶이 출시 </figcaption>
+                <img src="images/community6.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>성공을 꿈꾸는 예비창업자라면?</figcaption>
+                <img src="images/community7.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>발렌타인데이 혼자 맛있게 보내는 바람직한 자세.jpg</figcaption>
+                <img src="images/community1.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>죠스 어묵티,유좋채널 강유미의 리얼후기</figcaption>
+                <img src="images/community9.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>죠스떡볶이 상상해봤죠 컨텐츠 #삼각죠스밥</figcaption>
+                <img src="images/community8.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p>facebook</p>
+              <figure>
+                <figcaption>떡볶이 덕후의 방확계획</figcaption>
+                <img src="images/community10.jpg" alt="">
+              </figure>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
+  <!-- 커뮤니티 -->
+
+  <div id="peopleWrap">
+    <section id="people">
+      <h2 class="hidden">브랜드</h2>
+      <h3 class="hidden">채용정보</h3>
+      <h4>jaws people</h4>
+      <p>죠스와 함께 할 <br>당신을<br>모십니다.</p>
+      <div id="employment">
+        <a href="#">채용정보 바로가기</a>
+        <dl>
+          <dt>죠스피플 story</dt>
+          <dd>꿈을 만들어가고 있는 죠스피플</dd>
+        </dl>
+      </div>
+    </section>
+  </div>
+  <!-- 사람들 -->
+
+  <aside id="aside">
+    <h2 class="hidden">고객의 소리 & 창업상담신청</h2>
+    <ul>
+      <li class="voice"><a href="#"><span></span>고객의<br>소리</a></li>
+      <li class="apply"><a href="#"><span></span>창업 상담 <br>신청</a></li>
+    </ul>
+  </aside>
+  <!-- 사이드바 -->
+
+  <div id="foundationWrap">
+    <section id="foundation">
+      <h2>창업상담신청</h2>
+      <form>
+        <input type="text" name="username" placeholder="이름" id="username">
+        <input type="text" placeholder="연락처" class="phone">
+        - <input type="text" class="phone">
+        - <input type="text" class="phone">
+        <button>신청하기</button>
+      </form>
+    </section>
+  </div>
+  <!-- 창업상담신청 -->
+
+
+
+
+  <div id="footerWrap">
+    <footer id="footer">
+      <img src="images/footer_logo.png" alt="죠스떡볶이 하단로고">
+      <div id="address">
+        <p>대표이사 나상균 / 사업자등록번호 209-81-54096 / 서울특별시 강남구 영동대로 82길7 (대치동, 한석타워)</p>
+        <small>Copyright (C) jawsfood all rights reserved</small>
+      </div>
+      <ul class="footer_menu">
+        <li><a href="#">채용안내</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">사이트맵</a></li>
+      </ul>
+      <div id="operation">
+        <dl class="call">
+          <dt class="hidden">연락처</dt>
+          <dd>02 - 927 - 1525</dd>
+        </dl>
+        <dl class="operation_time">
+          <dt class="hidden">운영시간</dt>
+          <dd>오전 9시 ~ 오후 6시 / 주말 및 공휴일 휴무</dd>
+        </dl>
+      </div>
+    </footer>
+    <!-- 푸터   -->
+  </div>
+</body>
+
+</html>
