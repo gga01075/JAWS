@@ -86,7 +86,7 @@ position:absolute;top:80px;left:0px;}
 
 
 
-#storeWrap{height:570px;background:url('../images/store_instruduction.png') no-repeat center center / cover;padding-top:100px;}
+#storeWrap{height:570px;background:url('../images/store_instruduction.PNG') no-repeat center center / cover;padding-top:100px;}
 #store{width:1100px;margin:0 auto;}
 #new_store{width:50%;float:left;}
 #new_store h3{color:#fff;width:160px;height:40px;text-align:right;background:url(../images/bg_subtit1.png) no-repeat left center;
